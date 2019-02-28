@@ -12,6 +12,7 @@ Fixed Issues:
 
 * [#2672](https://github.com/ckeditor/ckeditor-dev/issues/2672): Fixed: When resizing [Enhanced Image](https://ckeditor.com/cke4/addon/image2) to minimum size with a resizer the image dialog doesn't show actual values.
 * [#1478](https://github.com/ckeditor/ckeditor-dev/issues/1478): Fixed: Custom colors added to [Color Button](https://ckeditor.com/cke4/addon/colorbutton) via [`config.colorButton_colors`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-colorButton_colors) in form label/code don't work correctly.
+* [#1469](https://github.com/ckeditor/ckeditor-dev/issues/1469): Fixed: Trying to get data from nested editable inside freshly pasted widget throws an error.
 
 API Changes:
 
@@ -24,10 +25,6 @@ API Changes:
 * [#2698](https://github.com/ckeditor/ckeditor-dev/issues/2698): Added the [`CKEDITOR.htmlParser.element.findOne`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_htmlParser_element.html#method-findOne) method.
 
 ## CKEditor 4.11.4
-
-Fixed Issues:
-
-[#1469](https://github.com/ckeditor/ckeditor-dev/issues/1469): Fixed: Trying to get data from nested editable inside freshly pasted widget throws an error.
 
 ## CKEditor 4.11.3
 
